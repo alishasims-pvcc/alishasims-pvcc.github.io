@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<! Name: Alisha Sims>
+<! The base of this program was created in ChatGPT >    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 4</title>
+    <style>
+        table {
+            width: 70%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: rgba(148, 139, 150, 0.8);
+            font-family: Arial, Helvetica, sans-serif;
+            border: 2px solid rgb(243, 241, 245);
+        }
+        th, td {
+            border: 2px solid rgb(0, 0, 0);
+            padding: 10px;
+            text-align: left;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <body style="background-image: url(wp-sky.png);">
+<h1 style="text-align: center; color: #c5c1c1;"> Chapter 4: Networking </h1>
+<h1 style="text-align: center; color: #c5c1c1;"> Alisha Sims</h1>
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Definition</th>
+        </tr>
+        <tr>
+            <td>Network Classifications</td>
+            <td>
+                <li>LAN: "local area network" - normally consists of a collection of computers in a single building or building complex</li>
+                <li>MAN: "metropolitan area network" - a network of intermediate size, such as one spanning a local community.</li>
+                <li>WAN: "wide area network" - links machines over a greater distance - perhaps in neighboring cities or on opposite sides of the world.</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Network models</td>
+            <td>
+                <li>bus network: two or more popular topologies, in which the machines are all connected to a common communication line.</li>
+                <li>star network: on machice serves as a central focal point to which all the others are connected.</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Protocols</td>
+            <td>
+                <li>CSMA/CD Ethernet: "carrier sense, multiple access with collision detection" - the protocol that controls the right to transmit messages.</li>
+                <li>CSMA/CA Wifi: "carrier sense, multiple access with collision avoidance" - wireless networks that adopt the policy of trying to avoid collisions rather that trying to detect them.</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Combining networks</td>
+            <td>
+                <li>repeater: a device that passes signals back and forth between the two originial buses (usually with some form of amplification) without considering the meaning of the signals.</li>
+                <li>bridge: like a repeater, it connects two buses, but it does not necessarily pass all messages across the connection.</li>
+                <li>switch: a bridge with multiple connections, allowing it to connect several buses rather than just two.</li>
+                <li>router: devices that handle the connection between networks to form an internet.</li>
+                <li>gateway: the "point" at which one network is linked to an internet because it serves as a passageway between the network and the outside world.</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Client/server model</td>
+            <td>
+                <li>p2p: peer-to-peer: the client/server model involves one process (the server) providing a service to numerous others (clients). Involves processes that provide service to and receive service from each other.</li>
+                <li>distributed system: consist of of software units that execute as processes on different computers.</li>
+                <li>cloud computing: huge pools of shared computers on the network can be allocated for use by clients as needed, is the latest trend in distributed systems.</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Internet Addressing</td>
+            <td>
+                <li>Tier 1: top hierarchy ISP's that consist of very high-speed, high-capacity, international WAN's.</li>
+                <li>Tier 2: connecting to the tier-1 ISP's, tend to be more regional in scope and less potent in their capabilities.</li>
+                <li>Tier 3: an independent internet, sometime called an intranet, operated by a single authority that is in the business of supplying internet access to individual homes and businesses.</li>
+            </td>
+        </tr>
+        <tr>
+            <td>IP address</td>
+            <td>
+                <li><a href="https://www.icann.org/">ICANN</a> "internet corporation for assigned names and numbers" - a nonprofit corporation established to coordinate the internet's operation.</li>
+                <li>DNS: "domain name system" - name servers used as an internet-wide directory system.</li>
+                <li>TLD: "top-level domain" - domain name classifications</li>
+                <li><a href="https://www.worldstandards.eu/other/tlds/">Country-code TLDs></a> two letter, country name domain classifications.<a href = "https://www.worldstandards.edu/other/tlds"></a></li>
+            </td>
+        </tr>
+        <tr>
+            <td>Internet protocols</td>
+            <td>
+                <li>FTP: "file transfer protocol" - an application for accessing another computer from a great distanceusing the telnet protocol</li>
+                <li>HTTP: "hyper text tranfer protocol" - power that webpages use to handle traditional network applications.</li>
+                <li>SMTP: "simple mail transfer protocol" - a way that two computers on the network may interact when transmitting an email message from one host to the other.</li>
+            </td>
+        </tr>
+        <tr>
+            <td>World wide web</td>
+            <td>
+                <li>URL: "uniform resource locator" - a unique address give to documents to be located and retrieved on the web.</li>
+                <li>client-side activities: activities performed by a client (such as a browser).</li>
+                <li>server-side activities: activities performed by a server (such as a webserver).</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Internet four-layer software</td>
+            <td>
+                <li>application layer: where a message typically originates (or received).</li>
+                <li>transport layer: used by the application layer to send and receive messages over the internet.</li>
+                <li>network layer: accepts messages from the application layer and ensures the messages are properly formatted for transmission over the internet.</li>
+                <li>link layer: the responsibility of transferring the packet. Must deal with the communication details particular to the individual network in which the computer resides.</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Internet is</td>
+            <td>
+                <li>packet-switching network: the internet, through which digital data is sent by breaking the data into blocks of bits, which contain both the data being transmitted and control information for routing the data.</li>
+                <li>fault tolerant: the cumulative result of these features for transporting, routing, and fowarding packets is an internet that is tolerant of many types of faults, and that can fall back to other redundant pathways for delivery when congestion or failure occur.</li>
+                <li>redundant: most or all of the network remains connected even when very important tier-1 routers fail.</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Cybersecurity</td>
+            <td>
+                <li>malware: malicious software.</li>
+                <li>virus: software that infects a computer by inserting itself into programs that already reside in the machine.</li>
+                <li>worm: an autonomous program that transfer itself through a network, taking up residence in computers and forwarding copies of itself to other computers.</li>
+                <li>Trojan horse: program that enters a computer system disguised as a desireable program, such as a game or useful utility package, that is willingly imported by the victim.</li>
+                <li>spyware: another form of malicious software (sometimes called sniffing software), which is software that collects information about activities at the computer on which it resides and reports that information back to the instigator of the attack.</li>
+                <li>phishing: a technique of obtaining information explicitly by simply asking for it.</li>
+                <li>DDoS attack: "distributed denial of service" attack - when the work of generating the attacks is distributed over many hosts.</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Protection</td>
+            <td>
+                <li>firewall: a program or primary prevention technique used to filter traffic passing through a point in the network.</li>
+                <li>spam filter: firewalls designed to block unwanted email.</li>
+                <li>proxy server: a software unit that acts as an intermediary between a client and a server with the goal of shielding the client from adverse actions of the server.</li>
+                <li>antivirus software: used to detect and remover the presence of known viruses and other infections.</li>
+                <li>cryptography: the study of sending and receiving messages securely in the presence of adversaries.</li>
+                <li>public key encryption: techniquese by which the encryption and decryption algorithms are known, and one of the keys is known, but the encoded message remains secure.</li>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
